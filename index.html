@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopEase</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav>
+    <div class="logo">ShopEase</div>
+
+    <input
+    type="text"
+    id="searchInput"
+    placeholder="Search Product..."
+    onkeyup="searchProduct()">
+
+    <div class="cart">
+        🛒 <span id="cartCount">0</span>
+    </div>
+</nav>
+
+<!-- Hero -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Discover Amazing Products</h1>
+
+        <p>
+            Premium Quality Products At Affordable Prices
+        </p>
+
+        <button>Shop Now</button>
+
+    </div>
+
+</section>
+
+<!-- Products -->
+
+<section class="products">
+
+<h2>Featured Products</h2>
+
+<div class="product-container" id="productContainer">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500">
+
+<h3>Nike Shoes</h3>
+
+<p>$120</p>
+
+<button onclick="addToCart()">Add To Cart</button>
+
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500">
+
+<h3>Smart Watch</h3>
+
+<p>$90</p>
+
+<button onclick="addToCart()">Add To Cart</button>
+
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500">
+
+<h3>Headphones</h3>
+
+<p>$75</p>
+
+<button onclick="addToCart()">Add To Cart</button>
+
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500">
+
+<h3>iPhone</h3>
+
+<p>$999</p>
+
+<button onclick="addToCart()">Add To Cart</button>
+
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500">
+
+<h3>Perfume</h3>
+
+<p>$50</p>
+
+<button onclick="addToCart()">Add To Cart</button>
+
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500">
+
+<h3>T-Shirt</h3>
+
+<p>$35</p>
+
+<button onclick="addToCart()">Add To Cart</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- About -->
+
+<section class="about">
+
+<h2>About Us</h2>
+
+<p>
+ShopEase provides quality products with modern designs and affordable prices.
+</p>
+
+</section>
+
+<!-- Contact -->
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p>Email: shopease@gmail.com</p>
+
+<p>Phone: +92 300 1234567</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 ShopEase. All Rights Reserved.</p>
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
